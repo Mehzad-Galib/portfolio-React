@@ -49,7 +49,7 @@ const Navbar = () => {
               </Nav.Link>
             </li>
             <li className="nav-item">
-            <Nav.Link href={`https://drive.google.com/uc?export=download&id=1PrzSSQ4rbnwkZv0n5XYDFvEQwEu3v1T4`} className="btn btn-outline-danger" target="_blank">
+            <Nav.Link href={`https://drive.google.com/uc?export=download&id=1PrzSSQ4rbnwkZv0n5XYDFvEQwEu3v1T4`} className="btn btn-outline-success" target="_blank">
               
                 Download Resume
               
