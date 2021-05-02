@@ -11,7 +11,7 @@ const Projects = () => {
     // console.log(project);
     return (
         <div className='container'>
-            <h2>Projects</h2>
+            <h2 className='text-center'>Projects</h2>
             <div className="row">
             {
                 projects.map(project => <Sample key={project.id} project={project}></Sample>)

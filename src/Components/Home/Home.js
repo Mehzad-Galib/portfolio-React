@@ -2,11 +2,13 @@ import React from "react";
 import "./Home.css";
 import Typical from "react-typical";
 import { Nav } from "react-bootstrap";
+import {Link} from 'react-router-dom';
 
 const Home = () => {
   return (
     <div className="container mt-5 d-flex align-items-center justify-content-center">
       <div className="intro">
+        <h2 className="text-white">Hello, I am</h2>
         <h1 className="text-white">Mehzad Galib</h1>
         <div className="typist text-white h4">
           <Typical
@@ -24,8 +26,8 @@ const Home = () => {
             wrapper="b"
           />
         </div>
-        <div className="d-flex justify-content-evenly">
-          <div className="mail">
+        <div className="d-flex justify-content-evenly mt-4">
+          <div className="social">
             <Nav.Link target="_blank" href={`https://www.facebook.com/mehzad.galib/`} className="btn">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -39,7 +41,7 @@ const Home = () => {
               </svg>
             </Nav.Link>
           </div>
-          <div className="linked In">
+          <div className="social">
             <Nav.Link href={`https://www.linkedin.com/in/mehzad-galib-a6b247181/`} target="_blank" className="btn">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -53,7 +55,7 @@ const Home = () => {
               </svg>
             </Nav.Link>
           </div>
-          <div className="github">
+          <div className="social">
             <Nav.Link href={`https://github.com/Mehzad-Galib`} target="_blank" className="btn">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -68,6 +70,25 @@ const Home = () => {
             </Nav.Link>
           </div>
         </div>
+
+        <div className="d-flex justify-content-evenly mt-4">
+          <div className="hire-me mx-3">
+            
+            <Nav.Link as={Link} to={`/contact`} className="nav-link active btn btn-success" aria-current="page" >
+                Hire Me
+              </Nav.Link>
+           
+          </div>
+          <div className="resume mx-3">
+          <Nav.Link href={`https://drive.google.com/uc?export=download&id=1PrzSSQ4rbnwkZv0n5XYDFvEQwEu3v1T4`} className="btn btn-primary" target="_blank">
+              
+              Download Resume
+            
+          </Nav.Link>
+            
+          </div>
+        </div>
+
       </div>
     </div>
   );
