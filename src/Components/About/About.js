@@ -78,7 +78,7 @@ const About = () => {
           <TimelineItem>
             <TimelineOppositeContent>
               <Typography color="textSecondary"><h4><span style={{color: 'purple'}}>Rajshahi Collegiate School, Rajshahi</span><br/>
-                  Science</h4></Typography>
+                  SSC</h4></Typography>
             </TimelineOppositeContent>
             <TimelineSeparator>
               <TimelineDot />
