@@ -1,6 +1,5 @@
 import React from "react";
 import "./Home.css";
-import proPic from "../../Images/propic.jpg";
 import Typical from "react-typical";
 import { Nav } from "react-bootstrap";
 

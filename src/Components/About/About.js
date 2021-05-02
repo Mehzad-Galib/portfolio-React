@@ -36,11 +36,11 @@ const About = () => {
           <span class="badge rounded-pill bg-secondary">Node Mailer</span>
           <span class="badge rounded-pill bg-secondary">Redux</span>{" "}
           <span class="badge rounded-pill bg-secondary">Tailwind CSS</span>{" "}
-          <span class="badge rounded-pill bg-secondary">Bulma CSS</span>{" "}
+          
           <span class="badge rounded-pill bg-secondary">Git</span>{" "}
           <span class="badge rounded-pill bg-secondary">Express JS</span>{" "}
           <span class="badge rounded-pill bg-secondary">Chrome Dev Tools</span>
-          <span class="badge rounded-pill bg-secondary">Figma</span>
+          
         </h4>
       </div>
 
