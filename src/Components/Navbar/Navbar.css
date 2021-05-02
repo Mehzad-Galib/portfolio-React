@@ -8,3 +8,9 @@
 .resume:hover{
     color:cornflowerblue
 }
+
+.name:hover{
+    transform: scale(1.25);
+    color:chocolate;
+    transition: 0.5s;
+}

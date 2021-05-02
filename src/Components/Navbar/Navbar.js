@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light">
       <div className="container-fluid">
-        <Nav.Link className="navbar-brand" as={Link} to={`/`} >
+        <Nav.Link className="navbar-brand name" as={Link} to={`/`} >
           Mehzad Galib
         </Nav.Link>
         <button

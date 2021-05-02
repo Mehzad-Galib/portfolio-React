@@ -6,26 +6,28 @@ import {Link} from 'react-router-dom';
 
 const Home = () => {
   return (
-    <div className="container mt-5 d-flex align-items-center justify-content-center">
+    <div className="container mt-5 d-flex align-items-center justify-content-center mb-10">
       <div className="intro">
         <h2 className="text-white">Hello, I am</h2>
         <h1 className="text-white">Mehzad Galib</h1>
+        
         <div className="typist text-white h4">
           <Typical
             steps={[
-              "Developer",
+              "Front End Web Developer",
               6000,
-              "Programmer",
+              "Programming Enthusiast",
               6000,
-              "Learner",
+              "UI/UX Designer",
               6000,
-              "Designer",
-              5000,
+              "Student",
+              5000
             ]}
             loop={Infinity}
             wrapper="b"
           />
         </div>
+        
         <div className="d-flex justify-content-evenly mt-4">
           <div className="social">
             <Nav.Link target="_blank" href={`https://www.facebook.com/mehzad.galib/`} className="btn">
@@ -82,7 +84,7 @@ const Home = () => {
           <div className="resume mx-3">
           <Nav.Link href={`https://drive.google.com/uc?export=download&id=1PrzSSQ4rbnwkZv0n5XYDFvEQwEu3v1T4`} className="btn btn-primary" target="_blank">
               
-              Download Resume
+              Resume
             
           </Nav.Link>
             
