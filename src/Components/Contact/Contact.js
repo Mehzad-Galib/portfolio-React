@@ -1,7 +1,9 @@
 import React from "react";
 import emailjs from "emailjs-com";
 import{ init } from 'emailjs-com';
+import Bounce from 'react-reveal/Bounce';
 init("user_4WcrCOogGeTS9zyg7euJ9");
+
 
 const Contact = () => {
 
@@ -21,6 +23,7 @@ const Contact = () => {
 
   return (
     <div className="container mt-5">
+      <Bounce top>
       <h3 className="text-center">Contact Me</h3>
       <form onSubmit={onSubmit} className="emailjs">
         <div className="row pt-5 mx-auto">
@@ -64,6 +67,8 @@ const Contact = () => {
           </div>
         </div>
       </form>
+      </Bounce>
+      
     </div>
   );
 };

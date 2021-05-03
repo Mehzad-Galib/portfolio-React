@@ -1,8 +1,7 @@
 .nav-elements:hover{
-    font-weight: 500;
+    font-weight: 700;
     color:blueviolet;
-    border-bottom: 3px solid blue;
-    
+    border: transparent;
 }
 
 .resume:hover{

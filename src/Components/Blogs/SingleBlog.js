@@ -4,7 +4,7 @@ import { Nav } from 'react-bootstrap';
 const SingleBlog = (props) => {
     const {title, description, liveSite, image} = props.blog;
     return (
-        <div className="col-md-4 col-12">
+        <div className="col-md-4 col-sm-12">
         <div className="card mt-3 mb-5 projectCard">
           <img
             className="card-img-top"

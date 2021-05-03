@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light">
       <div className="container-fluid">
-        <Nav.Link className="navbar-brand name" as={Link} to={`/`} >
+        <Nav.Link className="navbar-brand name mx-4" as={Link} to={`/`} >
           Mehzad Galib
         </Nav.Link>
         <button
@@ -24,27 +24,27 @@ const Navbar = () => {
         </button>
         <div className="collapse navbar-collapse topbar" id="navbarNav">
           <ul className="navbar-nav ms-auto ml-5">
-            <li className="nav-item nav-elements">
+            <li className="nav-item nav-elements mx-2">
               <Nav.Link as={Link} to={`/home`} className="nav-link active" aria-current="page" >
                 Home
               </Nav.Link>
             </li>
-            <li className="nav-item nav-elements">
+            <li className="nav-item nav-elements mx-2">
             <Nav.Link as={Link} to={`/projects`} className="nav-link active" aria-current="page">
                 Projects
               </Nav.Link>
             </li>
-            <li className="nav-item nav-elements">
+            <li className="nav-item nav-elements mx-2">
             <Nav.Link as={Link} to={`/blogs`} className="nav-link active" aria-current="page" >
                 Blogs
               </Nav.Link>
             </li>
-            <li className="nav-item nav-elements">
+            <li className="nav-item nav-elements mx-2">
             <Nav.Link as={Link} to={`/about`} className="nav-link active" aria-current="page" >
                 About Me
               </Nav.Link>
             </li>
-            <li className="nav-item nav-elements">
+            <li className="nav-item nav-elements mx-2">
             <Nav.Link as={Link} to={`/contact`} className="nav-link active" aria-current="page" >
                 Contact Me
               </Nav.Link>
