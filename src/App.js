@@ -13,24 +13,15 @@ function App() {
     <Router>
       <Navbar />
       <Switch>
-        <Route exact path="/">
-          <Home />
-        </Route>
-        <Route path="/home">
-          <Home />
-        </Route>
-        <Route path="/blogs">
-          <Blogs />
-        </Route>
-        <Route path="/about">
-          <About />
-        </Route>
-        <Route path="/projects">
-          <Projects />
-        </Route>
-        <Route path="/contact">
-          <Contact />
-        </Route>
+        
+        <Route exact path="/" component={Home} />
+        <Route path="/home" component={Home} />
+        <Route path="/blogs" component={Blogs} />
+        <Route path="/contact" component={Contact} />
+        <Route path="/about" component={About} />
+        <Route path="/projects" component={Projects} />
+
+        
       </Switch>
       <Footer />
     </Router>

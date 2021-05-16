@@ -1,15 +1,19 @@
-.nav-elements:hover{
-    font-weight: 700;
-    color:blueviolet;
-    border: transparent;
+.nav-elements{
+    border-bottom: 2px solid transparent;
 }
 
-.resume:hover{
-    color:cornflowerblue
+.nav-elements:hover{
+    
+    font-weight: 700;
+    border-bottom: 2px solid blue;
+   
+
 }
+
 
 .name:hover{
+    font-family: "Dancing Script", cursive;
     transform: scale(1.25);
-    color:chocolate;
+    
     transition: 0.5s;
 }

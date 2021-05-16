@@ -7,9 +7,6 @@ import Slide from 'react-reveal/Slide';
 import Rotate from 'react-reveal/Rotate';
 import Roll from 'react-reveal/Roll';
 
-
-// import AwesomeButton from 'react-awesome-button/src/components/AwesomeButton';
-
 const Home = () => {
   return (
     
@@ -24,14 +21,12 @@ const Home = () => {
         <div className="typist text-white h4">
           <Typical
             steps={[
-              "Front End Web Developer",
+              "Web Developer",
               6000,
-              "Programming Enthusiast",
+              "Programmer",
               6000,
               "UI/UX Designer",
-              6000,
-              "Student",
-              5000
+              6000
             ]}
             loop={Infinity}
             wrapper="b"

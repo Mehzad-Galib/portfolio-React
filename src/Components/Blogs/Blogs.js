@@ -11,7 +11,7 @@ const Blogs = () => {
         setBlogs(blogsInfo)        
     },[])
     return (
-        <div className="container mt-4">
+        <div id="blogs" className="container mt-4">
             <Bounce left>
             <h2 className='text-center'>Blogs</h2>
             <div className="row mt-3">
