@@ -19,7 +19,7 @@ const SingleBlog = (props) => {
           <div className="card-body d-flex justify-content-center">
             <Nav.Link href={liveSite} target="_blank">
               <button className="btn btn-outline-warning">
-                Live Website
+                Visit Blog
               </button>
             </Nav.Link>
           </div>

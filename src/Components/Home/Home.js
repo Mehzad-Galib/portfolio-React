@@ -10,15 +10,15 @@ import Roll from 'react-reveal/Roll';
 const Home = () => {
   return (
     
-    <div className="container mt-5 d-flex align-items-center justify-content-center mb-10">
+    <div className="container real mt-2 d-flex align-items-center justify-content-center">
       <div animation='fadeIn' className="intro">
         <Slide right>
         <h2 className="text-white">Hello, I am</h2>
-        <h1 className="text-white">Mehzad Galib</h1>
+        <h1 className="text-indigo">Mehzad Galib</h1>
         </Slide>
         
         <Rotate top left>
-        <div className="typist text-white h4">
+        <div className="typist text-red h4">
           <Typical
             steps={[
               "Web Developer",
@@ -52,7 +52,7 @@ const Home = () => {
             </Nav.Link>
           </div>
           <div className="social">
-            <Nav.Link href={`https://www.linkedin.com/in/mehzad-galib-a6b247181/`} target="_blank" className="btn">
+            <Nav.Link href={`https://www.linkedin.com/in/mehzad-galib/`} target="_blank" className="btn">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="32"

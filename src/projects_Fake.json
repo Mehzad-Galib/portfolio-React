@@ -1,7 +1,34 @@
-[{"id":1,"title":"Smart Shop","description":"A Grocery Shopping Website made with ReactJS and MongoDB","github":"https://github.com/Mehzad-Galib/smart-shop-client","liveSite":"https://smart-shop-8be10.web.app/","image":"https://i.ibb.co/w6Dj1cm/smart-Shop.jpg"},
-{"id":2,"title":"Internet Provider","description":"An Internet Provider Website created with MERN with payment integration system","github":"https://github.com/Mehzad-Galib/internet-provider-client","liveSite":"https://isprajnet4589.firebaseapp.com/","image":"https://i.ibb.co/4VmgRD4/internet-Provider.jpg"},
-{"id":3,"title":"EPL Universe","description":"A visual database of 20 English Premier League Teams with their social media links","github":"https://github.com/Mehzad-Galib/EPL-Universe","liveSite":"https://epl-universe-react-router.netlify.app/","image":"https://i.ibb.co/XVS83Xp/epl-Universe.jpg"},
-{"id":4,"title":"Laptop Bazar","description":"A Marketplace to buy laptops","github":"https://github.com/Mehzad-Galib/Laptop-Market","liveSite":"https://mehzad-galib.github.io/Laptop-Market/#","image":"https://i.ibb.co/XVS83Xp/epl-Universe.jpg"}
-  ]
-
-
+[
+  {
+    "id": 1,
+    "title": "Blog Mania",
+    "description": "A Blog Posting Single Page Application made with MERN",
+    "github": "https://github.com/Mehzad-Galib/blog-tailwind-client",
+    "liveSite": "https://blog-mania-4c2cf.web.app",
+    "image": "https://i.ibb.co/w6Dj1cm/smart-Shop.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Redux Book Shelf",
+    "description": "A Book Listing Website where State Management has been done by Redux",
+    "github": "https://github.com/Mehzad-Galib/redux-book-shelf",
+    "liveSite": "https://reduxbookshelf.netlify.app/",
+    "image": "https://i.ibb.co/4VmgRD4/internet-Provider.jpg"
+  },
+  {
+    "id": 3,
+    "title": "EPL Universe",
+    "description": "A visual database of 20 English Premier League Teams with their social media links",
+    "github": "https://github.com/Mehzad-Galib/EPL-Universe",
+    "liveSite": "https://epl-universe-react-router.netlify.app/",
+    "image": "https://i.ibb.co/XVS83Xp/epl-Universe.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Laptop Bazar",
+    "description": "A Marketplace to buy laptops",
+    "github": "https://github.com/Mehzad-Galib/Laptop-Market",
+    "liveSite": "https://mehzad-galib.github.io/Laptop-Market/#",
+    "image": "https://i.ibb.co/XVS83Xp/epl-Universe.jpg"
+  }
+]

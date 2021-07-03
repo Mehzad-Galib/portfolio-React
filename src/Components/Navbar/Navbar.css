@@ -1,4 +1,5 @@
 .nav-elements{
+    font-weight: 600;
     border-bottom: 2px solid transparent;
 }
 
@@ -9,7 +10,9 @@
    
 
 }
-
+.name{
+    font-weight:bold;
+}
 
 .name:hover{
     font-family: "Dancing Script", cursive;
