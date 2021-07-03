@@ -5,15 +5,15 @@
     "description": "A Blog Posting Single Page Application made with MERN",
     "github": "https://github.com/Mehzad-Galib/blog-tailwind-client",
     "liveSite": "https://blog-mania-4c2cf.web.app",
-    "image": "https://i.ibb.co/w6Dj1cm/smart-Shop.jpg"
+    "image": "https://i.ibb.co/YDzpcZz/blog-mania.png"
   },
   {
     "id": 2,
-    "title": "Redux Book Shelf",
-    "description": "A Book Listing Website where State Management has been done by Redux",
-    "github": "https://github.com/Mehzad-Galib/redux-book-shelf",
-    "liveSite": "https://reduxbookshelf.netlify.app/",
-    "image": "https://i.ibb.co/4VmgRD4/internet-Provider.jpg"
+    "title": "Laptop Bazar",
+    "description": "A Marketplace to buy Laptops, Created with HTML, CSS and Bootstrap",
+    "github": "https://github.com/Mehzad-Galib/Laptop-Market",
+    "liveSite": "https://mehzad-galib.github.io/Laptop-Market/#",
+    "image": "https://i.ibb.co/4PxDyNT/laptop-bazar.png"
   },
   {
     "id": 3,
@@ -21,14 +21,8 @@
     "description": "A visual database of 20 English Premier League Teams with their social media links",
     "github": "https://github.com/Mehzad-Galib/EPL-Universe",
     "liveSite": "https://epl-universe-react-router.netlify.app/",
-    "image": "https://i.ibb.co/XVS83Xp/epl-Universe.jpg"
-  },
-  {
-    "id": 4,
-    "title": "Laptop Bazar",
-    "description": "A Marketplace to buy laptops",
-    "github": "https://github.com/Mehzad-Galib/Laptop-Market",
-    "liveSite": "https://mehzad-galib.github.io/Laptop-Market/#",
-    "image": "https://i.ibb.co/XVS83Xp/epl-Universe.jpg"
+    "image": "https://i.ibb.co/JKLd0xf/epl-universe.png"
   }
 ]
+
+

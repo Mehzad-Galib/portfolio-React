@@ -3,11 +3,12 @@ import emailjs from "emailjs-com";
 import{ init } from 'emailjs-com';
 import './contact.css'
 import Bounce from 'react-reveal/Bounce';
+import { useState } from "react";
 init("user_4WcrCOogGeTS9zyg7euJ9");
 
 
 const Contact = () => {
-
+const [message, setMessage] = useState(null)
 
   const onSubmit = (e) => {
       e.preventDefault()
@@ -16,6 +17,7 @@ const Contact = () => {
     emailjs.sendForm('contact_form', 'template_dr99p5a', e.target, 'user_4WcrCOogGeTS9zyg7euJ9')
       .then((result) => {
           console.log(result.text);
+          setMessage('Thanks for filling up the contact form. I will be in touch with you soon')
       }, (error) => {
           console.log(error);
       });
@@ -68,7 +70,7 @@ const Contact = () => {
         </div>
       </form>
       </Bounce>
-      
+      <h4 className="text-green mt-3 text-center">{message}</h4>
     </div>
   );
 };

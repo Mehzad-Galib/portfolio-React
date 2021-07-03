@@ -24,13 +24,7 @@ const About = () => {
         <div className="align-items-center justify-content-center">
           <Fade left>
             <h5>
-              I am a junior Full-Stack web developer with over one year of
-              front-end-focused experience. I can write reusable, maintainable,
-              and scalable code for mobile-responsive websites. My work history
-              demonstrates a solid track record in leading and working on both
-              medium and large-sized projects. My passion is to learn more
-              web-related technologies to build user-friendly web applications
-              and work with bigger software-related companies.
+            A fresher looking for challenging yet rewarding career with a progressive organization. Always seeking new technologies and enjoying working as a team.
             </h5>
           </Fade>
         </div>
@@ -38,18 +32,21 @@ const About = () => {
           <h3 className="mt-5">Technologies</h3>
           <h4 className="mt-3 badges">
             <span className="badge m-2 p-3 rounded-pill bg-secondary">
-              HTML
-            </span>{" "}
-            <span className="badge m-2 p-3 rounded-pill bg-secondary">CSS</span>
+              HTML5
+            </span>
+            <span className="badge m-2 p-3 rounded-pill bg-secondary">CSS3</span>
             <span className="badge m-2 p-3 rounded-pill bg-secondary">
               Bootstrap
-            </span>{" "}
+            </span>
+            <span className="badge m-2 p-3 rounded-pill bg-secondary">
+              Tailwind CSS
+            </span>
             <span className="badge m-2 p-3 rounded-pill bg-secondary">
               Javascript
-            </span>{" "}
+            </span>
             <span className="badge m-2 p-3 rounded-pill bg-secondary">
               React JS
-            </span>{" "}
+            </span>
             <span className="badge m-2 p-3 rounded-pill bg-secondary">
               MongoDB
             </span>{" "}
@@ -58,7 +55,16 @@ const About = () => {
             </span>{" "}
             <span className="badge m-2 p-3 rounded-pill bg-secondary">
               Material UI
-            </span>{" "}
+            </span>
+            <span className="badge m-2 p-3 rounded-pill bg-secondary">
+              Node JS
+            </span>
+            <span className="badge m-2 p-3 rounded-pill bg-secondary">
+              Redux
+            </span>
+            <span className="badge m-2 p-3 rounded-pill bg-secondary">
+             REST API 
+            </span>
           </h4>
         </LightSpeed>
       </div>
@@ -75,9 +81,7 @@ const About = () => {
             <span className="badge m-2 p-3 rounded-pill bg-secondary">
               Netlify
             </span>
-            <span className="badge m-2 p-3 rounded-pill bg-secondary">
-              Redux
-            </span>{" "}
+            
             <span className="badge m-2 p-3 rounded-pill bg-secondary">Git</span>{" "}
             <span className="badge m-2 p-3 rounded-pill bg-secondary">
               Chrome Dev Tools

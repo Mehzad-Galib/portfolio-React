@@ -3,6 +3,7 @@ import { Nav } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithubSquare } from "@fortawesome/free-brands-svg-icons";
 import './Simple.css'
+import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 
 
 const Sample = (props) => {
@@ -24,12 +25,12 @@ const Sample = (props) => {
           <div className="card-body d-flex justify-content-center">
             <Nav.Link href={github} target="_blank">
               <button className="btn btn-outline-primary" type="button">
-               <FontAwesomeIcon icon={faGithubSquare} /> Github
+               <FontAwesomeIcon icon={faGithubSquare} /> Source Code
               </button>
             </Nav.Link>
             <Nav.Link href={liveSite} target="_blank">
               <button className="btn btn-outline-warning">
-                Live Website
+              <FontAwesomeIcon icon={faGlobe} /> Preview
               </button>
             </Nav.Link>
           </div>
