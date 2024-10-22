@@ -39,7 +39,7 @@ const About = () => {
               Bootstrap
             </span>
             <span className="badge m-2 p-3 rounded-pill bg-secondary">
-              Tailwind CSS
+              Tableau
             </span>
             <span className="badge m-2 p-3 rounded-pill bg-secondary">
               Javascript
