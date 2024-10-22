@@ -2,7 +2,6 @@ import React from "react";
 import "./Home.css";
 import Typical from "react-typical";
 import { Nav } from "react-bootstrap";
-import {Link} from 'react-router-dom';
 import Slide from 'react-reveal/Slide';
 import Rotate from 'react-reveal/Rotate';
 import Roll from 'react-reveal/Roll';
