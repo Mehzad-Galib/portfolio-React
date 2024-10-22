@@ -24,84 +24,122 @@ const About = () => {
         <div className="align-items-center justify-content-center">
           <Fade left>
             <h5>
-            A fresher looking for challenging yet rewarding career with a progressive organization. Always seeking new technologies and enjoying working as a team.
+            Recent graduate and pursuing MSc degree in CSE (Data Science) from BUET, bringing statistical and predictive analytics expertise and ability to work within a range of data environments. Learned and applied several programming languages, tools along with database technologies, and done some real-world projects with useful insights. Looking to apply practical data science experience with strong skills in research and programming methodologies. 
+
             </h5>
           </Fade>
         </div>
         <LightSpeed top>
-          <h3 className="mt-5">Technologies</h3>
+          <h3 className="mt-5">Programming Languages</h3>
           <h4 className="mt-3 badges">
             <span className="badge m-2 p-3 rounded-pill bg-secondary">
-              HTML5
+              C
             </span>
-            <span className="badge m-2 p-3 rounded-pill bg-secondary">CSS3</span>
+            <span className="badge m-2 p-3 rounded-pill bg-secondary">C++</span>
             <span className="badge m-2 p-3 rounded-pill bg-secondary">
-              Bootstrap
+              Python
             </span>
             <span className="badge m-2 p-3 rounded-pill bg-secondary">
-              Tableau
+              R
             </span>
             <span className="badge m-2 p-3 rounded-pill bg-secondary">
               Javascript
             </span>
-            <span className="badge m-2 p-3 rounded-pill bg-secondary">
-              React JS
-            </span>
-            <span className="badge m-2 p-3 rounded-pill bg-secondary">
-              MongoDB
-            </span>{" "}
-            <span className="badge m-2 p-3 rounded-pill bg-secondary">
-              Express JS
-            </span>{" "}
-            <span className="badge m-2 p-3 rounded-pill bg-secondary">
-              Material UI
-            </span>
-            <span className="badge m-2 p-3 rounded-pill bg-secondary">
-              Node JS
-            </span>
-            <span className="badge m-2 p-3 rounded-pill bg-secondary">
-              Redux
-            </span>
-            <span className="badge m-2 p-3 rounded-pill bg-secondary">
-             REST API 
-            </span>
+
+
           </h4>
         </LightSpeed>
       </div>
+    
       <div className="mt-5">
         <LightSpeed bottom>
-          <h3>Tools</h3>
+          <h3>Statistical Softwares and Packages</h3>
+    
           <h4 className="mt-3 badges">
             <span className="badge m-2 p-3 rounded-pill bg-secondary">
-              Power BI
+              SPSS
             </span>{" "}
             <span className="badge m-2 p-3 rounded-pill bg-secondary">
-              Heroku
+              MS Excel
             </span>{" "}
             <span className="badge m-2 p-3 rounded-pill bg-secondary">
-              Netlify
+              Pandas
             </span>
             
-            <span className="badge m-2 p-3 rounded-pill bg-secondary">Git</span>{" "}
+            <span className="badge m-2 p-3 rounded-pill bg-secondary">NumPy</span>{" "}
+          </h4>
+        </LightSpeed>
+      </div>
+
+          <div className="mt-5">
+        <LightSpeed bottom>
+          <h3>Data Visualization Tools</h3>
+    
+          <h4 className="mt-3 badges">
             <span className="badge m-2 p-3 rounded-pill bg-secondary">
-              Chrome Dev Tools
+              Matplotlib
+            </span>{" "}
+            <span className="badge m-2 p-3 rounded-pill bg-secondary">
+              Scikit-learn
+            </span>{" "}
+            <span className="badge m-2 p-3 rounded-pill bg-secondary">
+              Power BI
             </span>
+            <span className="badge m-2 p-3 rounded-pill bg-secondary">Tableau</span>{" "}
+          </h4>
+        </LightSpeed>
+      </div>
+
+        <div className="mt-5">
+        <LightSpeed bottom>
+          <h3>Database Softwares</h3>
+    
+          <h4 className="mt-3 badges">
+            <span className="badge m-2 p-3 rounded-pill bg-secondary">
+              MySQL
+            </span>{" "}
+            <span className="badge m-2 p-3 rounded-pill bg-secondary">
+              PostgreSQL
+            </span>{" "}
           </h4>
         </LightSpeed>
       </div>
 
       <div className="mt-4">
-
         <Bounce bottom>
         <h2>Educational Background</h2>
         <Timeline align="alternate">
+
+              <TimelineItem>
+            <TimelineOppositeContent>
+              <Typography color="textSecondary">
+                {" "}
+                <h4>
+                  <span style={{ color: "purple" }}>
+                    Bangladesh University of Engineering and Technology (BUET)
+                  </span>{" "}
+                  <br />
+                  MSc in CSE (Data Science)
+                </h4>
+              </Typography>
+            </TimelineOppositeContent>
+            <TimelineSeparator>
+              <TimelineDot />
+              <TimelineConnector />
+            </TimelineSeparator>
+            <TimelineContent>
+              <Typography>2024 - Present</Typography>
+            </TimelineContent>
+          </TimelineItem>
+  
+    
           <TimelineItem>
             <TimelineOppositeContent>
               <Typography color="textSecondary">
                 {" "}
                 <h4>
                   <span style={{ color: "purple" }}>
-                    Bangladesh University of Engineering and Technology
+                    Bangladesh University of Engineering and Technology (BUET)
                   </span>{" "}
                   <br />
                   UnderGraduate
@@ -113,9 +151,11 @@ const About = () => {
               <TimelineConnector />
             </TimelineSeparator>
             <TimelineContent>
-              <Typography>2018- Present</Typography>
+              <Typography>2018- 2023</Typography>
             </TimelineContent>
           </TimelineItem>
+
+  
           <TimelineItem>
             <TimelineOppositeContent>
               <Typography color="textSecondary">
