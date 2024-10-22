@@ -21,11 +21,11 @@ const Home = () => {
         <div className="typist text-red h4">
           <Typical
             steps={[
-              "Web Developer",
+              "Data Scientist",
               6000,
               "Programmer",
               6000,
-              "UI/UX Designer",
+              "Data Analyst",
               6000
             ]}
             loop={Infinity}
@@ -84,23 +84,10 @@ const Home = () => {
         
             <Slide bottom>
             <div className="d-flex justify-content-evenly mt-4">
-          <div className="hire-me mx-3">
-            
-            <Nav.Link as={Link} to={`/contact`} className="nav-link active btn btn-success" aria-current="page" >
-                Hire Me
-              </Nav.Link>
-           
-          </div>
-
-          
-
           <div className="resume mx-3">
-          <Nav.Link href={`https://drive.google.com/uc?export=download&id=1PrzSSQ4rbnwkZv0n5XYDFvEQwEu3v1T4`} className="btn btn-primary" target="_blank">
-              
+                <Nav.Link href={`https://drive.google.com/file/d/1E6jMhok_YfVDjJDeXPFQCuUF71LyXym9/view?usp=sharing`} className="btn btn-primary" target="_blank">
               Resume
-            
-          </Nav.Link>
-            
+                   </Nav.Link>
           </div>
         </div>
             </Slide>
