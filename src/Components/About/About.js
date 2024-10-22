@@ -73,7 +73,7 @@ const About = () => {
           <h3>Tools</h3>
           <h4 className="mt-3 badges">
             <span className="badge m-2 p-3 rounded-pill bg-secondary">
-              Firebase
+              Power BI
             </span>{" "}
             <span className="badge m-2 p-3 rounded-pill bg-secondary">
               Heroku
