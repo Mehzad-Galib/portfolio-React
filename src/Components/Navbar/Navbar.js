@@ -44,12 +44,6 @@ const Navbar = () => {
                 About Me
               </Nav.Link>
             </li>
-            <li className="nav-item nav-elements mx-2">
-            <Nav.Link as={Link} to={`/contact`} className="nav-link active" aria-current="page" >
-                Contact Me
-              </Nav.Link>
-            </li>
-            
           </ul>
         </div>
       </div>
