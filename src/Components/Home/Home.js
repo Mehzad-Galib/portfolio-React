@@ -13,7 +13,7 @@ const Home = () => {
     <div className="container real mt-2 d-flex align-items-center justify-content-center">
       <div animation='fadeIn' className="intro">
         <Slide right>
-        <h2 className="text-white">Hello, I am</h2>
+        <h2 className="text-white">Greetings, I am</h2>
         <h1 className="text-indigo">Mehzad Galib</h1>
         </Slide>
         
