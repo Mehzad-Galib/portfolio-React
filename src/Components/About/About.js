@@ -142,7 +142,7 @@ const About = () => {
                     Bangladesh University of Engineering and Technology (BUET)
                   </span>{" "}
                   <br />
-                  UnderGraduate
+                  Bachelor
                 </h4>
               </Typography>
             </TimelineOppositeContent>
